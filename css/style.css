@@ -1,0 +1,48 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+.form-control{
+    /* border: 1px solid ; */
+    border: none;
+    background-color: #e3e6e8;
+    padding: 7px 15px; 
+}
+.form-control:hover{
+    background-color: #e9ebec;
+}
+.form-control:focus{
+    background-color: #e3e6e8;
+}
+
+.form-control::placeholder{
+    color: #7b7b7b;
+}
+
+.btn-auth{
+    background-color: #479fcd;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+
+.form-control:focus{
+    box-shadow: none;
+}
+
+.login-form{
+    margin-top: 90px;
+}
+
+.card{
+    border: none;
+}
+.btn-link{
+    text-decoration: none;
+    color: #479fcd;
+}
+.btn-link:hover{
+    color: #000;
+}
